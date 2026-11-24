@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# Runtime / generated data
+data/*.json
+data/*.tmp
+logs/
+*.log
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# SQLite databases and backups
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.db.*
+database/*.sqlite
+database/*.sqlite3
+
+# Local security/event data
+data/*.csv
+data/*.json
+data/*.tmp
